@@ -5,7 +5,7 @@ import {
   Menu, X, CalendarCheck, BriefcaseBusiness, TrendingUp, Trash2, RefreshCw
 } from 'lucide-react';
 
-const API = 'http://localhost:5000/api';
+const API = "https://leave-management.onrender.com/api/leaves";
 const blankForm = {
   employeeName: '', employeeId: '', department: '', leaveType: 'Casual Leave',
   startDate: '', endDate: '', reason: ''
